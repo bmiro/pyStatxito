@@ -6,7 +6,7 @@ from subprocess import check_output, Popen, PIPE
 
 
 from losetup import get_free_loop_device
-from cryptsetup import luksOpen, luksClose
+from cryptsetup import luks_open, luks_close
 
 
 __VERSION__="0.1"
